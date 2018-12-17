@@ -12,12 +12,12 @@ program
 #define MAIN_H_ //ensure independence
 
 //includes
-#include &lt;avr/io.h&gt;
-#include &lt;avr/interrupt.h&gt;
-#include &lt;util/delay.h&gt;
-#include &quot;ports.h&quot;
-#include &quot;UART.h&quot;
-#include &quot;LCD.h&quot;
+#include <avr/io.h>
+#include <avr/interrupt.h>
+#include <util/delay.h>
+#include "ports.h"
+#include "UART.h"
+#include "LCD.h"
 
 //global variables
 volatile uint16_t rx_array[25];
