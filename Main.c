@@ -22,7 +22,7 @@
 * Author: Drew Radcliff
 */
 
-#include &quot;main.h&quot; //include main.h file
+#include "main" //include main.h file
 //start of main function
 
 int main(void)
